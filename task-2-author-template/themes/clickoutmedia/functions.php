@@ -42,15 +42,16 @@ remove_action('wp_head', 'wp_site_icon', 99);
 remove_action('init', 'wp_embed_register_handler');
 remove_filter('the_content', [$GLOBALS['wp_embed'], 'autoembed'], 8);
 
-// Remove jQuery
+// Remove jQuery everywhere except on the front page
 function remove_default_jquery() {
-    if ( ! is_admin() ) { // Don't remove from admin dashboard
+    if ( ! is_admin() && ! is_front_page() ) {
+        // Don't remove from admin dashboard and homepage
         wp_deregister_script( 'jquery' );
         wp_deregister_script( 'jquery-core' );
         wp_deregister_script( 'jquery-migrate' );
     }
 }
-add_action( 'wp_enqueue_scripts', 'remove_default_jquery' );
+add_action( 'wp_enqueue_scripts', 'remove_default_jquery', 100 );
 
 // Disable WordPress embeds script
 add_action('init', function() {

@@ -13,7 +13,7 @@
 
 ---
 
-## Installation
+## Tasks
 
 ### Task 1 – Most Viewed Articles Plugin
 
@@ -58,6 +58,7 @@ Covers:
 
 **Author:** Aleksandar Bjelica
 **Date:** 8/8/2025
+
 
 
 

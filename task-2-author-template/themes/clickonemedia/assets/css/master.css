@@ -1,0 +1,105 @@
+/* Open Sans - Light (300) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-Light.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans - Regular (400) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans - Medium (500) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-Medium.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-Medium.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans - SemiBold (600) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-SemiBold.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans - Bold (700) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans - ExtraBold (800) */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/OpenSans/OpenSans-ExtraBold.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  background-color: #E9E9E9;
+  margin: 0;
+  overflow-x: hidden;
+}
+body.unscrollable {
+  overflow-y: hidden;
+}
+.container {
+  max-width: 960px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.homepage-content {
+  display: flex;
+  padding: 200px 0;
+}
+.homepage-content h1 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #FFFFFF;
+  }
+  .homepage-content {
+    padding: 80px 0;
+  }
+  .homepage-content h1 {
+    font-size: 28px;
+  }
+}

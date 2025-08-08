@@ -1,11 +1,4 @@
-# WordPress Developer Test – Tasks 1–3
-
-This repository contains my solutions for the WordPress developer test.  
-It includes:
-
-1. **Task 1 – Custom WordPress Plugin:** Most Viewed Articles widget with a tabbed interface (This Week / This Month) and unique view counting logic.
-2. **Task 2 – Frontend Implementation:** Custom WordPress theme author page template based on provided Figma design.
-3. **Task 3 – Performance Optimization & SEO Best Practices:** Written explanation of key Core Web Vitals improvements and SEO recommendations.
+# WordPress Developer Test – Aleksandar Bjelica
 
 ---
 
@@ -23,11 +16,15 @@ It includes:
 ## Installation
 
 ### Task 1 – Most Viewed Articles Plugin
+
 1. Upload the `most-viewed-articles` folder to `wp-content/plugins/`.
 2. Activate it in the WordPress admin panel.
 3. Add the widget via **Appearance → Widgets**.
 
+---
+
 ### Task 2 – Custom Author Page Template
+
 1. Upload the `custom-author-theme` folder to `wp-content/themes/`.
 2. Activate it in the WordPress admin panel.
 3. Extract `uploads.zip` file to `wp-content/uploads`
@@ -61,6 +58,7 @@ Covers:
 
 **Author:** Aleksandar Bjelica
 **Date:** 8/8/2025
+
 
 
 

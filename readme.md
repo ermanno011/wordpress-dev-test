@@ -13,8 +13,6 @@ It includes:
 
 - **Main site:** https://darkseagreen-ant-563107.hostingersite.com/  
 - **Author page example:** https://darkseagreen-ant-563107.hostingersite.com/author/barry/
-- username: clickonemedia
-- password: @leksandarBj3lica
 
 ---
 
@@ -59,6 +57,7 @@ Covers:
 
 **Author:** Aleksandar Bjelica
 **Date:** 8/8/2025
+
 
 
 

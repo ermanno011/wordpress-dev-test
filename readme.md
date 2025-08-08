@@ -33,7 +33,7 @@ It includes:
 ## Task 3 – Performance & SEO
 
 Full write-up is in:  
-[`task-3-performance-seo.md`](./task-3-performance-seo.md)  
+[`task-3-performance-seo.md`](task-3-performance-seo/task-3-performance-seo.md)  
 
 Covers:
 - Three key Core Web Vitals issues and fixes.
@@ -54,3 +54,4 @@ Covers:
 
 **Author:** Aleksandar Bjelica
 **Date:** 8/8/2025
+

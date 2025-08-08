@@ -69,21 +69,10 @@ The plugin stores:
 
 This is for counting purposes only.
 
-## Screenshots
-
-1. **Frontend widget** showing "This Week" and "This Month" tabs.
-2. **Admin dashboard** page showing the same stats.
-
-## Changelog
-
-### 1.1
-- Added admin dashboard page with same tabbed stats as the widget.
-- Improved CSS styling.
-- Added optional view count next to post title.
-
 ### 1.0
 - Initial release with frontend widget and basic tracking.
 
 ## License
 
 This plugin is licensed under the GPLv2 or later.
+

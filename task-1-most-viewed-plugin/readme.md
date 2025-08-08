@@ -21,3 +21,5 @@
 6. **(Optional) Adjust view tracking**
    - By default, every page load of a single post is counted.
    - To limit to **1 view per IP per hour**, replace the `track_post_view()` method with the rate-limited version in the plugin code.
+
+***Note: I've tested This Month functionality by changing visit dates throught phpMyAdmin interface by changing visit dates to July.

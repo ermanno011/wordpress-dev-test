@@ -26,7 +26,10 @@ It includes:
 ### Task 2 – Custom Author Page Template
 1. Upload the `custom-author-theme` folder to `wp-content/themes/`.
 2. Activate it in the WordPress admin panel.
-3. Visit any author archive page (e.g., `/author/barry/`).
+3. Extract `uploads.zip` file to `wp-content/uploads`
+4. Install `Advanced Custom Fields` plugin
+5. Import `acf-export-2025-08-08.json` inside `Advanced Custom Fields` plugin tools
+6. Visit any author archive page (e.g., `/author/barry/`).
 
 ---
 
@@ -54,5 +57,6 @@ Covers:
 
 **Author:** Aleksandar Bjelica
 **Date:** 8/8/2025
+
 
 
